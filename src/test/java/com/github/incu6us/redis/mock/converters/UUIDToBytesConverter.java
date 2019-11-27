@@ -1,4 +1,4 @@
-package com.redis.mock.converters;
+package com.github.incu6us.redis.mock.converters;
 
 import org.springframework.core.convert.converter.Converter;
 

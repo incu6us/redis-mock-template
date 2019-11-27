@@ -1,4 +1,4 @@
-package com.redis.mock;
+package com.github.incu6us.redis.mock;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

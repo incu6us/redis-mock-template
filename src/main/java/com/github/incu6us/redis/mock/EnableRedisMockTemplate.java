@@ -1,6 +1,6 @@
-package com.redis.mock;
+package com.github.incu6us.redis.mock;
 
-import com.redis.mock.core.RedisMockTemplateConfiguration;
+import com.github.incu6us.redis.mock.core.RedisMockTemplateConfiguration;
 import org.springframework.boot.test.autoconfigure.OverrideAutoConfiguration;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.annotation.AliasFor;

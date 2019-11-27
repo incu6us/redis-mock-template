@@ -1,4 +1,4 @@
-package com.redis.mock.core;
+package com.github.incu6us.redis.mock.core;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
@@ -15,7 +15,7 @@ import java.util.List;
 
 @Slf4j
 @Configuration
-@ComponentScan("com.redis.mock")
+@ComponentScan
 public class RedisMockTemplateConfiguration {
 
     @Bean

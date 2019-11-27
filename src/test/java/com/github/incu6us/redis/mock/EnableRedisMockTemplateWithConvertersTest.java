@@ -1,6 +1,6 @@
-package com.redis.mock;
+package com.github.incu6us.redis.mock;
 
-import com.redis.mock.converters.UUIDToBytesConverter;
+import com.github.incu6us.redis.mock.converters.UUIDToBytesConverter;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

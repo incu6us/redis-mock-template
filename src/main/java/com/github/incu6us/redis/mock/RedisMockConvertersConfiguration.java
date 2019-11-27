@@ -1,6 +1,6 @@
-package com.redis.mock;
+package com.github.incu6us.redis.mock;
 
-import com.redis.mock.core.RedisMockConvertersConfigurationImportSelector;
+import com.github.incu6us.redis.mock.core.RedisMockConvertersConfigurationImportSelector;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Import;
 

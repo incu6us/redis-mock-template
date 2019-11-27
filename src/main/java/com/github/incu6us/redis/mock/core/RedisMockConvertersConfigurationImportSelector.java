@@ -1,6 +1,6 @@
-package com.redis.mock.core;
+package com.github.incu6us.redis.mock.core;
 
-import com.redis.mock.EnableRedisMockTemplate;
+import com.github.incu6us.redis.mock.EnableRedisMockTemplate;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.autoconfigure.AutoConfigurationImportSelector;
 import org.springframework.boot.context.annotation.DeterminableImports;

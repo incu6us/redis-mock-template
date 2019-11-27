@@ -1,4 +1,4 @@
-package com.redis.mock.core;
+package com.github.incu6us.redis.mock.core;
 
 import com.fiftyonred.mock_jedis.MockJedis;
 import org.springframework.data.redis.connection.RedisConnection;
