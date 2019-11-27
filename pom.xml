@@ -10,7 +10,7 @@
 
     <groupId>com.github.incu6us.redis</groupId>
     <artifactId>redis-mock-template</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
     <name>redis-mock-template</name>
     <description>Redis Mock Template</description>
     <packaging>jar</packaging>
@@ -37,7 +37,7 @@
         <connection>scm:git:git://github.com/incu6us/redis-mock-template.git</connection>
         <developerConnection>scm:git:git@github.com:incu6us/redis-mock-template.git</developerConnection>
         <url>https://github.com/incu6us/redis-mock-template</url>
-        <tag>redis-mock-template-0.0.1</tag>
+        <tag>0.0.1</tag>
     </scm>
 
     <dependencies>
