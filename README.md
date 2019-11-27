@@ -1,6 +1,10 @@
 redis-mock-template
 ---
 
+<a href="https://github.com/incu6us/redis-mock-template"><img alt="test status" src="https://github.com/incu6us/redis-mock-template/workflows/test/badge.svg"></a>
+<a href="https://github.com/incu6us/redis-mock-template"><img alt="build status" src="https://github.com/incu6us/redis-mock-template/workflows/build/badge.svg"></a>
+
+
 Redis Stateful Mock for testing specific cases.
 
 ### Example of usage:
