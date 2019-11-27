@@ -14,6 +14,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
+                <gpg.keyname>D4D851EBF9A44382B72AF932B79653F1AC517E28</gpg.keyname>
                 <gpg.executable>gpg</gpg.executable>
                 <gpg.passphrase>${GPG_PASSPHRASE}</gpg.passphrase>
                 <gpg.defaultKeyring>true</gpg.defaultKeyring>

@@ -5,7 +5,16 @@ redis-mock-template
 <a href="https://github.com/incu6us/redis-mock-template"><img alt="build status" src="https://github.com/incu6us/redis-mock-template/workflows/build/badge.svg"></a>
 
 
-Redis Stateful Mock for testing specific cases.
+Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://github.com/50onRed/mock-jedis)).
+
+### Add dependency to project:
+```
+<dependency>
+  <groupId>com.github.incu6us.redis</groupId>
+  <artifactId>redis-mock-template</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
 
 ### Example of usage:
 ```java
