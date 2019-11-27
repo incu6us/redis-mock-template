@@ -1,6 +1,7 @@
 redis-mock-template
 ---
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.incu6us.redis/redis-mock-template.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.incu6us.redis%22%20AND%20a:%22redis-mock-template%22)
 <a href="https://github.com/incu6us/redis-mock-template"><img alt="test status" src="https://github.com/incu6us/redis-mock-template/workflows/test/badge.svg"></a>
 <a href="https://github.com/incu6us/redis-mock-template"><img alt="build status" src="https://github.com/incu6us/redis-mock-template/workflows/build/badge.svg"></a>
 
@@ -8,7 +9,7 @@ redis-mock-template
 Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://github.com/50onRed/mock-jedis)).
 
 ### Add dependency to project:
-```
+```xml
 <dependency>
   <groupId>com.github.incu6us.redis</groupId>
   <artifactId>redis-mock-template</artifactId>
