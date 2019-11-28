@@ -4,11 +4,11 @@ redis-mock-template
 [![Maven Central](https://img.shields.io/maven-central/v/com.github.incu6us.redis/redis-mock-template.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.incu6us.redis%22%20AND%20a:%22redis-mock-template%22)
 <a href="https://github.com/incu6us/redis-mock-template"><img alt="test status" src="https://github.com/incu6us/redis-mock-template/workflows/test/badge.svg"></a>
 <a href="https://github.com/incu6us/redis-mock-template"><img alt="build status" src="https://github.com/incu6us/redis-mock-template/workflows/build/badge.svg"></a>
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/ef814db7dcdf4490a24e9008f6b7927f)](https://www.codacy.com/manual/incu6us/redis-mock-template?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=incu6us/redis-mock-template&amp;utm_campaign=Badge_Grade)
 
 Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://github.com/50onRed/mock-jedis)).
 
-### Add dependency to project:
+### Add dependency to project
 ```xml
 <dependency>
   <groupId>com.github.incu6us.redis</groupId>
@@ -17,7 +17,7 @@ Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://git
 </dependency>
 ```
 
-### Example of usage:
+### Example of usage
 ```java
 import org.junit.Test;
 import org.junit.runner.RunWith;

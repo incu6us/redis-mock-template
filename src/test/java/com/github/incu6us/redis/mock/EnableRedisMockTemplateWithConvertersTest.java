@@ -27,7 +27,7 @@ public class EnableRedisMockTemplateWithConvertersTest {
     }
 
     @Test
-    public void redisKVAdapter_withCustomConverterTest() {
+    public void redisKVAdapterWithCustomConverterTest() {
         assertThat(redisKeyValueAdapter.toBytes(UUID.randomUUID())).isInstanceOf(byte[].class);
     }
 }
