@@ -31,8 +31,8 @@ public class RedisMockTemplateConfiguration {
 
     @Bean
     @ConditionalOnMissingBean(RedisTemplate.class)
-    public RedisTemplate redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisTemplate redisTemplate = new RedisTemplate();
+    public RedisTemplate<?,?> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+        RedisTemplate<?,?> redisTemplate = new RedisTemplate<>();
         redisTemplate.setConnectionFactory(redisConnectionFactory);
         return redisTemplate;
     }

@@ -13,7 +13,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class EnableRedisMockTemplateTest {
 
     @Autowired
-    private RedisTemplate redisTemplate;
+    private RedisTemplate<String,String> redisTemplate;
 
     @Test
     public void isRedisTemplateLoaded() {
