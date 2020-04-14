@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Optional;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -13,7 +15,11 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class EnableRedisMockTemplateTest {
 
     @Autowired
-    private RedisTemplate<String,String> redisTemplate;
+    private RedisTemplate<String, String> redisTemplate;
+
+    @Autowired
+    private TestStorage storage;
+    
 
     @Test
     public void isRedisTemplateLoaded() {
@@ -32,5 +38,18 @@ public class EnableRedisMockTemplateTest {
         redisTemplate.opsForHash().delete("test-key", "test-hash-key");
 
         assertThat(redisTemplate.opsForHash().get("test-key", "test-hash-key")).isNull();
+    }
+
+    @Test
+    public void createAndGetUsingRepository() {
+        storage.save(TestModel.builder()
+                .id("1")
+                .data("test")
+                .build());
+
+        assertThat(storage.findById("1")).isEqualTo(Optional.of(TestModel.builder()
+                .id("1")
+                .data("test")
+                .build()));
     }
 }

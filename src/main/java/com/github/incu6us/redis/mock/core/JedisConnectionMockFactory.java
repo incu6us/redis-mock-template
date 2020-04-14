@@ -12,7 +12,7 @@ public class JedisConnectionMockFactory extends JedisConnectionFactory {
 
     @Override
     public RedisConnection getConnection() {
-        JedisConnection connection = new JedisConnection(jedis, null, getDatabase());
+        JedisConnection connection = new JedisConnection(jedis);
         return postProcessConnection(connection);
     }
 }

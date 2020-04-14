@@ -13,7 +13,7 @@ Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://git
 <dependency>
   <groupId>com.github.incu6us.redis</groupId>
   <artifactId>redis-mock-template</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
 </dependency>
 ```
 
