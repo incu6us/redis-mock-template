@@ -8,6 +8,8 @@ redis-mock-template
 
 Redis Stateful Mock for testing specific cases(based on [mock-jedis](https://github.com/50onRed/mock-jedis)).
 
+Additional details you could find on [Medium](https://link.medium.com/H6acnrS5R5).
+
 ### Add dependency to project
 ```xml
 <dependency>
